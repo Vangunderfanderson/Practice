@@ -9,8 +9,7 @@ namespace FizzBuzz
     ///      - "Fizz" (number divisible by 3)
     ///      - "Buzz" (number divisible by 5)
     ///      - "FizzBuzz" (number divisible by both 3 and 5)
-    ///      - 
-    ///     
+    ///      - The number itself (if the number is not divisible by 3 or 5
     /// </summary>
     public class FizzBuzz
     {
