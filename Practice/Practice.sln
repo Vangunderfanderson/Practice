@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29806.167
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FizzBuzz", "Algorithms\CSharp\FizzBuzz\FizzBuzz.csproj", "{8CA6A357-29A1-422C-BA7C-A05CB31F623F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Algorithms", "Algorithms", "{997C4D10-66C3-48EC-A758-23744155BFD9}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "DesignPatterns", "DesignPatterns", "{FCCA2C10-B18B-460E-BC33-2B506702C47F}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CSharp", "CSharp", "{7BC332D1-C788-4EE1-A40E-60FC543A33D3}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8CA6A357-29A1-422C-BA7C-A05CB31F623F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8CA6A357-29A1-422C-BA7C-A05CB31F623F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8CA6A357-29A1-422C-BA7C-A05CB31F623F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8CA6A357-29A1-422C-BA7C-A05CB31F623F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{8CA6A357-29A1-422C-BA7C-A05CB31F623F} = {7BC332D1-C788-4EE1-A40E-60FC543A33D3}
+		{7BC332D1-C788-4EE1-A40E-60FC543A33D3} = {997C4D10-66C3-48EC-A758-23744155BFD9}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3E2DCB9E-01F1-4F2C-B057-77D12E9F7C92}
+	EndGlobalSection
+EndGlobal
