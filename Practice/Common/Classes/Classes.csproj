@@ -5,6 +5,10 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="LanguageExt.Core" Version="3.3.29" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\Utility\Utility.csproj" />
   </ItemGroup>
 
