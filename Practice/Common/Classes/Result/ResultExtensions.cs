@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Text;
-
-namespace Classes.Result
+﻿namespace Classes.Result
 {
     public static class ResultExtensions
     {
