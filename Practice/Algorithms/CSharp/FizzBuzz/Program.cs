@@ -1,4 +1,4 @@
-﻿using Classes;
+﻿using Classes.MessageWriter;
 
 namespace FizzBuzz
 {

@@ -1,7 +1,7 @@
 ﻿using System.Collections.Generic;
 using Utility;
 
-namespace Classes
+namespace Classes.MessageWriter
 {
     /// <summary>
     ///     Class to mock a console writer. Only for testing purposes

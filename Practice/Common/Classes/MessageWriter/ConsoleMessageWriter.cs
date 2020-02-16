@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace Classes
+namespace Classes.MessageWriter
 {
     public class ConsoleMessageWriter : IMessageWriter
     {
