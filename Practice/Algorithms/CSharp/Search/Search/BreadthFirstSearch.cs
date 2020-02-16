@@ -6,6 +6,8 @@ namespace Search
 {
     public class BreadthFirstSearch<T> : ITreeSearcher<T>
     {
+        public string Name => "Breadth First Search";
+
         public bool ContainsValue(Node<T> root, T value)
             => GetNodeByValue(root, value).Succeeded;
 
