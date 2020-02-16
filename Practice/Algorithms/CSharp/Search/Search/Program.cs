@@ -1,5 +1,4 @@
 ﻿using Classes.MessageWriter;
-using Classes.Result;
 using Search.Classes;
 
 namespace Search
@@ -11,15 +10,24 @@ namespace Search
             var writer = new ConsoleMessageWriter();
             var rootNode = GetTreeOfInts();
             var bfs = new BreadthFirstSearch<int>();
+            TestSearchAlgorithmIntegers(bfs, rootNode, writer);
+
+            var dfs = new DepthFirstSearch<int>();
+            TestSearchAlgorithmIntegers(dfs, rootNode, writer);
+        }
+
+        private static void TestSearchAlgorithmIntegers(ITreeSearcher<int> searchAlgorithm, Node<int> rootNode, IMessageWriter writer)
+        {
+            writer.WriteMessage($"Testing algorithm: '{searchAlgorithm.Name}'");
             writer.WriteMessage("Looking for value 11");
-            var result = bfs.GetNodeByValue(rootNode, 11);
+            var result = searchAlgorithm.GetNodeByValue(rootNode, 11);
             writer.WriteMessage(result.Succeeded ? "Found it" : "Could not find it");
 
             writer.WriteMessage("Does value 15 exist in the tree?");
-            var valueExists = bfs.ContainsValue(rootNode, 15);
+            var valueExists = searchAlgorithm.ContainsValue(rootNode, 15);
             writer.WriteMessage(valueExists ? "It does!" : "No it does not!");
-
         }
+
 
         private static Node<int> GetTreeOfInts()
         {
